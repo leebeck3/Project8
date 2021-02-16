@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['removehead_23',['removeHead',['../classSLL.html#abf4a273aa216c8309db8c550783af370',1,'SLL']]]
+  ['printlist_29',['printList',['../classSLL.html#af040cdc4c562e38d8292430576e7b240',1,'SLL::printList()'],['../classDLL.html#a39351fa59d6db83586af452ad84582da',1,'DLL::printList()']]]
 ];

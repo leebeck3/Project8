@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Class Demo Singly Linked List: Node Class Reference</title>
+<title>Doubly Linked List - Lee Beckermeyer: Node Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Class Demo Singly Linked List
+   <div id="projectname">Doubly Linked List - Lee Beckermeyer
    &#160;<span id="projectnumber">0.1.0</span>
    </div>
   </td>
@@ -75,7 +75,7 @@ Collaboration diagram for Node:</div>
 <div class="dyncontent">
 <div class="center"><img src="classNode__coll__graph.png" border="0" usemap="#Node_coll__map" alt="Collaboration graph"/></div>
 <map name="Node_coll__map" id="Node_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,61,32"/>
+<area shape="rect" title=" " alt="" coords="5,7,61,33"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -90,6 +90,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a87c003c9f600e3fc58e6e90835f0b605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae64451cd6c118b6fe8369cb36bc9af06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNode.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNode.html#ae64451cd6c118b6fe8369cb36bc9af06">nextNode</a></td></tr>
 <tr class="separator:ae64451cd6c118b6fe8369cb36bc9af06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01942a792c9a2475c19145253e06ea8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNode.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNode.html#a01942a792c9a2475c19145253e06ea8c">prevNode</a></td></tr>
+<tr class="separator:a01942a792c9a2475c19145253e06ea8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -120,11 +122,12 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor </p>
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00021">21</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classNode.html#a87c003c9f600e3fc58e6e90835f0b605">data</a> = d;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classNode.html#ae64451cd6c118b6fe8369cb36bc9af06">nextNode</a> = NULL;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00022">22</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classNode.html#a87c003c9f600e3fc58e6e90835f0b605">data</a> = d;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="classNode.html#ae64451cd6c118b6fe8369cb36bc9af06">nextNode</a> = NULL;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="classNode.html#a01942a792c9a2475c19145253e06ea8c">prevNode</a> = NULL;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -161,10 +164,27 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a01942a792c9a2475c19145253e06ea8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01942a792c9a2475c19145253e06ea8c">&#9670;&nbsp;</a></span>prevNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classNode.html">Node</a>* Node::prevNode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00017">17</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/drseth/CPTR227/20210208-SLLClassDemo/src/<a class="el" href="main_8cpp_source.html">main.cpp</a></li>
+<li>/home/lee/Leecmake/Project8/src/<a class="el" href="main_8cpp_source.html">main.cpp</a></li>
 </ul>
 </div><!-- contents -->
+<div class="ttc" id="aclassNode_html_a01942a792c9a2475c19145253e06ea8c"><div class="ttname"><a href="classNode.html#a01942a792c9a2475c19145253e06ea8c">Node::prevNode</a></div><div class="ttdeci">Node * prevNode</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00017">main.cpp:17</a></div></div>
 <div class="ttc" id="aclassNode_html_ae64451cd6c118b6fe8369cb36bc9af06"><div class="ttname"><a href="classNode.html#ae64451cd6c118b6fe8369cb36bc9af06">Node::nextNode</a></div><div class="ttdeci">Node * nextNode</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00016">main.cpp:16</a></div></div>
 <div class="ttc" id="aclassNode_html_a87c003c9f600e3fc58e6e90835f0b605"><div class="ttname"><a href="classNode.html#a87c003c9f600e3fc58e6e90835f0b605">Node::data</a></div><div class="ttdeci">int data</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00015">main.cpp:15</a></div></div>
 <!-- start footer part -->
